@@ -1,1 +1,2 @@
 # LNN-ESKF
+The "train" file is used to train LNN. I adopted the TDOA data of the aligned IMU and UWB as input, and used the real position as the label for training. The "test" file is the test mode, and the "eskf_liquid" file is the class code of LNN-ESKF. main_d_4623 is the main function I use for the 4623 dataset, which is used to predict positions and visualize. best_liquid_model.pth preprocessor.pkl and scaler_y.pkl are the models I have trained, but the dataset for training has not been uploaded. It is still the aligned IMU TDOA data.
